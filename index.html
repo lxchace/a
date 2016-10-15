@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Boom!!!</title>
+	<style type="text/css">
+	.main{
+		width: 30%;
+	    margin: 8em auto 0;
+	    padding: 4em 4em 5em;
+	    background:rgba(0,0,0,0.5);/*登录框透明化*/
+	}
+	.main h1{
+		color:#85C8C5;
+		text-align:center;
+		font-size:2em;
+		margin:0 0 2em;
+	}
+	.input_form input[type="text"],.input_form input[type="password"]{
+		outline: none;
+	    border: 1px solid #999;
+	    background: none;
+	    border-radius: 25px;/*圆角*/
+	    padding: 15px 10px;
+	    width: 96%;
+	    font-size: 1em;
+	    color: #999;
+	    text-align: center;
+	    font-family: 'Raleway', sans-serif;
+	}
+	.input_form input[type="password"]{
+		margin:1.5em 0;
+	}
+	.footer{
+		text-align:center;
+		padding:2em 0;
+		font-size:1em;
+		color:#fff;
+		margin:0;
+	}
+	.ckeck-bg{
+		min-height: 50px;
+		position:relative;
+		top: 20px;
+	}
+	.checkbox-form input[type="submit"] {
+		border: none;
+	    color: #fff;
+	    padding: .7em 3em .8em;
+	    font-size: 1.2em;
+	    background:#1C6EB2;
+	    font-family: 'Raleway', sans-serif;
+	    border-radius: 25px;
+	    cursor: pointer;
+		float:right;
+	}
+	.checkbox-form input[type="submit"]:hover{
+		background:#175A91;
+	}	
+	</style>
+</head>
+<body background="https://ss2.bdstatic.com/lfoZeXSm1A5BphGlnYG/skin/117.jpg">
+		<div class="main">
+			<h1>登录</h1>
+			<div class="input_form">
+				<form>
+					<input type="text" value="User Name" onfocus="this.value = '';" >
+					<input type="password" value="Password" onfocus="this.value = '';">
+				</form>
+			</div>
+			<div class="ckeck-bg">
+				<div class="checkbox-form">
+						<form>
+							<input type="submit" value="Login">
+						</form>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Modified by Chace Hu.</p>
+		</div>
+</body>
+</html>
